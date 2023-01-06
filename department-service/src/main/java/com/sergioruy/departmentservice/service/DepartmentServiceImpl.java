@@ -23,4 +23,12 @@ public class DepartmentServiceImpl implements DepartmentService {
         DepartmentDto savedDepartmentDto = AutoDepartmentMapper.MAPPER.mapToDepartmentDto(savedDepartment);
         return savedDepartmentDto;
     }
+
+    @Override
+    public DepartmentDto getDepartmentByCode(String departmentCode) {
+
+        Department department = departmentRepository.findByDepartmentCode(departmentCode);
+
+        return AutoDepartmentMapper.MAPPER.mapToDepartmentDto(department);
+    }
 }
