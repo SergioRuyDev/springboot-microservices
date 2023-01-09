@@ -9,14 +9,8 @@ bdepartment-service/src/main/java/com/sergioruy/departmentservice/DepartmentServ
 Wdepartment-service/src/main/java/com/sergioruy/departmentservice/dto/DepartmentDto.java,f/9/f95e9a1740e768c79385421ec7a817f0bd640e87
 è
 _department-service/src/main/java/com/sergioruy/departmentservice/service/DepartmentService.java,d/8/d85e46fc85d14a4acc01fd6a6d5c42c7137f031f
-å
-\employee-service/src/main/java/com/sergioruy/employeeservice/EmployeeServiceApplication.java,1/0/109a1e6697615f3a933531ddd80866eede23b671
 ã
 [employee-service/src/main/java/com/sergioruy/employeeservice/mapper/AutoEmployeeMapper.java,e/6/e6728234c8ed88766eefe1f7ec1cc6b94b33edbe
-Å
-Qemployee-service/src/main/java/com/sergioruy/employeeservice/entity/Employee.java,2/1/21f64b39bd7ab52189fd4fa9b397b5e3b671d49a
-Å
-Qemployee-service/src/main/java/com/sergioruy/employeeservice/dto/EmployeeDto.java,a/c/acbb570d90f329f165e63f73e681dd703a0858a4
 J
 department-service/pom.xml,4/3/435a299772071101395e50f9c97404ba87b4f0c3
 H

@@ -1,5 +1,7 @@
 package com.sergioruy.employeeservice.service;
 
+import com.sergioruy.employeeservice.dto.ApiResponseDto;
+import com.sergioruy.employeeservice.dto.DepartmentDto;
 import com.sergioruy.employeeservice.dto.EmployeeDto;
 import com.sergioruy.employeeservice.entity.Employee;
 import com.sergioruy.employeeservice.exception.EmailExistException;
@@ -7,7 +9,9 @@ import com.sergioruy.employeeservice.exception.ResourceNotFoundException;
 import com.sergioruy.employeeservice.mapper.AutoEmployeeMapper;
 import com.sergioruy.employeeservice.repository.EmployeeRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.Optional;
 
@@ -16,6 +20,8 @@ import java.util.Optional;
 public class EmployeeServiceImpl implements EmployeeService {
 
     private EmployeeRepository employeeRepository;
+
+    private RestTemplate restTemplate;
 
     @Override
     public EmployeeDto saveEmployee(EmployeeDto employeeDto) {
@@ -35,13 +41,22 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    public EmployeeDto getEmployeeById(Long employeeId) {
+    public ApiResponseDto getEmployeeById(Long employeeId) {
         Employee employee = employeeRepository.findById(employeeId).orElseThrow(
                 () -> new ResourceNotFoundException("Employee with id " + employeeId + " was not found.")
         );
 
+        ResponseEntity<DepartmentDto> responseEntity = restTemplate.getForEntity(
+                "http://localhost:8080/api/departments/" + employee.getDepartmentCode(), DepartmentDto.class);
+
+        DepartmentDto departmentDto = responseEntity.getBody();
+
         EmployeeDto employeeDto = AutoEmployeeMapper.MAPPER.mapToEmployeeDto(employee);
 
-        return employeeDto;
+        ApiResponseDto apiResponseDto = new ApiResponseDto();
+        apiResponseDto.setEmployee(employeeDto);
+        apiResponseDto.setDepartment(departmentDto);
+
+        return apiResponseDto;
     }
 }
