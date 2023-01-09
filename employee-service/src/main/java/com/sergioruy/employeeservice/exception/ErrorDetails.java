@@ -16,6 +16,7 @@ public class ErrorDetails {
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "MM-dd-yyyy hh:mm:ss")
     private LocalDateTime timestamp;
+
     private String message;
     private String path;
     private String errorCode;

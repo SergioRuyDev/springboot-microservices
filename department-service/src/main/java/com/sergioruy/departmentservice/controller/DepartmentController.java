@@ -15,8 +15,8 @@ public class DepartmentController {
     private DepartmentService departmentService;
 
     @GetMapping("{department-code}")
-    public ResponseEntity<DepartmentDto> getDepartment(@PathVariable("department-code") String departmenCode) {
-        DepartmentDto departmentDto = departmentService.getDepartmentByCode(departmenCode);
+    public ResponseEntity<DepartmentDto> getDepartment(@PathVariable("department-code") String departmentCode) {
+        DepartmentDto departmentDto = departmentService.getDepartmentByCode(departmentCode);
         return ResponseEntity.ok(departmentDto);
     }
 
