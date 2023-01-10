@@ -87,8 +87,6 @@ O.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_1_5.xml
 edepartment-service/src/main/java/com/sergioruy/departmentservice/controller/DepartmentController.java,0/b/0b053c52c6e9c6aa12cb15d09dafb26192b6c293
 ˆ
 Xemployee-service/src/main/java/com/sergioruy/employeeservice/exception/ErrorDetails.java,c/6/c66c63280c35cb92ff88a2a89f36c5478f224e50
-ƒ
-Semployee-service/src/main/java/com/sergioruy/employeeservice/service/ApiClient.java,f/a/fa65bec4c3e53ab361cabd46b3c15abd307171de
 ‰
 Yemployee-service/src/main/java/com/sergioruy/employeeservice/service/EmployeeService.java,9/2/92258822d79bfe0ae7057afe8a7901fa97196a61
 “
