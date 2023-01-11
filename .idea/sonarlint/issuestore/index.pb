@@ -10,13 +10,9 @@ _department-service/src/main/java/com/sergioruy/departmentservice/service/Depart
 ‹
 [employee-service/src/main/java/com/sergioruy/employeeservice/mapper/AutoEmployeeMapper.java,e/6/e6728234c8ed88766eefe1f7ec1cc6b94b33edbe
 w
-G.idea/sonarlint/issuestore/8/f/8f12c181741b954207c64fd918ba9041dca6edc4,7/d/7d8a197aea9fb98c9fbb4afb1af1b36727fea061
-w
 G.idea/sonarlint/issuestore/8/5/855fd9fb9e01e3d84386d2ca848e2a66aba01ff7,b/2/b2cea92056f4d7a3b9b49ffae05b56b0db67b8c8
 w
 G.idea/sonarlint/issuestore/8/9/89b2dedab299a00609a03e5dd64d84ba8b35c411,8/3/831b6b80338df519aafe62de5d7e3be2bf1e00b4
-w
-G.idea/sonarlint/issuestore/4/3/435a299772071101395e50f9c97404ba87b4f0c3,b/0/b062a3c745e2939659b7ec90bef3c1096453aafd
 w
 G.idea/sonarlint/issuestore/f/9/f95e9a1740e768c79385421ec7a817f0bd640e87,3/a/3ae566d5a640f7376dc8b093b0410f2c95866a03
 w
@@ -289,14 +285,6 @@ G.idea/sonarlint/issuestore/f/3/f37a4d6cc211fe03a79b3c8a510e4b507fcf1f66,e/d/ed
 bdepartment-service/src/main/java/com/sergioruy/departmentservice/DepartmentServiceApplication.java,8/f/8f12c181741b954207c64fd918ba9041dca6edc4
 Œ
 \employee-service/src/main/java/com/sergioruy/employeeservice/EmployeeServiceApplication.java,1/0/109a1e6697615f3a933531ddd80866eede23b671
-J
-department-service/pom.xml,4/3/435a299772071101395e50f9c97404ba87b4f0c3
-H
-employee-service/pom.xml,f/d/fd812e5ef9218413b1f2b5c11155b42a1059175f
-H
-service-register/pom.xml,1/3/135122b01df2ba2f70b2430de347664b469b2e24
-Œ
-\service-register/src/main/java/com/sergioruy/serviceregister/ServiceRegisterApplication.java,b/9/b99c636e2433d446203d8c6539a1c8f7ac453817
 ‘
 aservice-register/src/test/java/com/sergioruy/serviceregister/ServiceRegisterApplicationTests.java,6/b/6b1dd548a410421cb736658ed48536a98428d256
 D
@@ -365,5 +353,3 @@ W.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3
 Semployee-service/src/main/java/com/sergioruy/employeeservice/service/ApiClient.java,f/a/fa65bec4c3e53ab361cabd46b3c15abd307171de
 ‚
 Rapi-gateway/src/test/java/com/sergioruy/apigateway/ApiGatewayApplicationTests.java,0/8/08d19adbe697d73bd4d74f4f0da87126afeb474d
-C
-api-gateway/pom.xml,2/b/2bfa2b108f2439e99e004f4085b58c22cf995f73
