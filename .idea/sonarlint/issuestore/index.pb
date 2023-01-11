@@ -75,8 +75,6 @@ T.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_
 V.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_3_1_5.xml,3/8/3858fa3f204a1eb96c666fb5523453edd1485e94
 
 O.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_1_5.xml,9/6/9681d8fd9c780f673165f6c2fd19c44ed92b89b9
-‰
-Y.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_3_1_5.xml,8/e/8ec66d221de6c1b6c8e16646203552756ac9b938
 
 O.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_1_5.xml,b/c/bc038d1b029a5c862f951be4bde4b658f72346c1
 •
@@ -257,8 +255,6 @@ w
 G.idea/sonarlint/issuestore/f/4/f4f422e2468673b5ef38330d53ff7ffd80c5ed84,d/7/d733e28fb6aafc48569c741971bb3a2285a66348
 |
 L.idea/libraries/Maven__org_springframework_spring_context_support_5_3_24.xml,a/f/afc0fe3f30001e5b4015f00371f3992cd34cb96b
-•
-e.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_3_1_4.xml,9/8/98acd9f658cfbc63d91aa9ade7b937d05ed66db0
 b
 2.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml,3/7/3753dd4e22974a6308070e54fee9a36a92530b6b
 •
@@ -347,8 +343,6 @@ o
 Q.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_86_Final.xml,f/9/f9f41f4346aedd27ce5374bf6a5f64db1c718535
 t
 D.idea/libraries/Maven__org_springframework_spring_webflux_5_3_24.xml,5/8/580bcbe372e73533b2e8fc25d8d5f18bcb78f60b
-‡
-W.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_3_1_4.xml,9/6/96d8a44f0ad4c9c33800e7570361802c6409433e
 ƒ
 Semployee-service/src/main/java/com/sergioruy/employeeservice/service/ApiClient.java,f/a/fa65bec4c3e53ab361cabd46b3c15abd307171de
 ‚
