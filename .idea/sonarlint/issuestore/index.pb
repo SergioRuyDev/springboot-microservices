@@ -10,13 +10,9 @@ _department-service/src/main/java/com/sergioruy/departmentservice/service/Depart
 ‹
 [employee-service/src/main/java/com/sergioruy/employeeservice/mapper/AutoEmployeeMapper.java,e/6/e6728234c8ed88766eefe1f7ec1cc6b94b33edbe
 w
-G.idea/sonarlint/issuestore/8/f/8f12c181741b954207c64fd918ba9041dca6edc4,7/d/7d8a197aea9fb98c9fbb4afb1af1b36727fea061
-w
 G.idea/sonarlint/issuestore/8/5/855fd9fb9e01e3d84386d2ca848e2a66aba01ff7,b/2/b2cea92056f4d7a3b9b49ffae05b56b0db67b8c8
 w
 G.idea/sonarlint/issuestore/8/9/89b2dedab299a00609a03e5dd64d84ba8b35c411,8/3/831b6b80338df519aafe62de5d7e3be2bf1e00b4
-w
-G.idea/sonarlint/issuestore/4/3/435a299772071101395e50f9c97404ba87b4f0c3,b/0/b062a3c745e2939659b7ec90bef3c1096453aafd
 w
 G.idea/sonarlint/issuestore/f/9/f95e9a1740e768c79385421ec7a817f0bd640e87,3/a/3ae566d5a640f7376dc8b093b0410f2c95866a03
 w
