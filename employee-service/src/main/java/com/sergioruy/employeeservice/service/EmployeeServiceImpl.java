@@ -9,7 +9,10 @@ import com.sergioruy.employeeservice.exception.ResourceNotFoundException;
 import com.sergioruy.employeeservice.mapper.AutoEmployeeMapper;
 import com.sergioruy.employeeservice.repository.EmployeeRepository;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.retry.annotation.Retry;
 import lombok.AllArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -18,6 +21,8 @@ import java.util.Optional;
 @Service
 @AllArgsConstructor
 public class EmployeeServiceImpl implements EmployeeService {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(EmployeeServiceImpl.class);
 
     private EmployeeRepository employeeRepository;
 
@@ -44,9 +49,13 @@ public class EmployeeServiceImpl implements EmployeeService {
         return savedEmployeeDto;
     }
 
-    @CircuitBreaker(name = "${spring.application.name}", fallbackMethod = "getDefaultDepartment")
+//    @CircuitBreaker(name = "${spring.application.name}", fallbackMethod = "getDefaultDepartment")
+    @Retry(name = "${spring.application.name}", fallbackMethod = "getDefaultDepartment")
     @Override
     public ApiResponseDto getEmployeeById(Long employeeId) {
+
+        LOGGER.info("Inside getEmployeeById() method");
+
         Employee employee = employeeRepository.findById(employeeId).orElseThrow(
                 () -> new ResourceNotFoundException("Employee with id " + employeeId + " was not found.")
         );
@@ -76,13 +85,16 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     public ApiResponseDto getDefaultDepartment(Long employeeId, Exception exception) {
+
+        LOGGER.info("Inside getDefaultDepartment() method");
+
         Employee employee = employeeRepository.findById(employeeId).orElseThrow(
                 () -> new ResourceNotFoundException("Employee with id " + employeeId + " was not found.")
         );
 
         DepartmentDto departmentDto = new DepartmentDto();
-        departmentDto.setDepartmentCode("R&D Department");
-        departmentDto.setDepartmentName("RD001");
+        departmentDto.setDepartmentCode("RD001");
+        departmentDto.setDepartmentName("R&D Department");
         departmentDto.setDepartmentDescription("Research and Development Department");
 
         EmployeeDto employeeDto = AutoEmployeeMapper.MAPPER.mapToEmployeeDto(employee);

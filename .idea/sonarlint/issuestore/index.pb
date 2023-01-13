@@ -1,14 +1,10 @@
 
 n
 >.idea/libraries/Maven__org_mapstruct_mapstruct_1_5_3_Final.xml,8/5/855fd9fb9e01e3d84386d2ca848e2a66aba01ff7
-ë
-adepartment-service/src/main/java/com/sergioruy/departmentservice/mapper/AutoDepartmentMapper.java,8/9/89b2dedab299a00609a03e5dd64d84ba8b35c411
 á
 Wdepartment-service/src/main/java/com/sergioruy/departmentservice/dto/DepartmentDto.java,f/9/f95e9a1740e768c79385421ec7a817f0bd640e87
 è
 _department-service/src/main/java/com/sergioruy/departmentservice/service/DepartmentService.java,d/8/d85e46fc85d14a4acc01fd6a6d5c42c7137f031f
-ã
-[employee-service/src/main/java/com/sergioruy/employeeservice/mapper/AutoEmployeeMapper.java,e/6/e6728234c8ed88766eefe1f7ec1cc6b94b33edbe
 w
 G.idea/sonarlint/issuestore/8/5/855fd9fb9e01e3d84386d2ca848e2a66aba01ff7,b/2/b2cea92056f4d7a3b9b49ffae05b56b0db67b8c8
 w
@@ -71,8 +67,6 @@ edepartment-service/src/main/java/com/sergioruy/departmentservice/controller/Dep
 Xemployee-service/src/main/java/com/sergioruy/employeeservice/exception/ErrorDetails.java,c/6/c66c63280c35cb92ff88a2a89f36c5478f224e50
 â
 Yemployee-service/src/main/java/com/sergioruy/employeeservice/service/EmployeeService.java,9/2/92258822d79bfe0ae7057afe8a7901fa97196a61
-ì
-cdepartment-service/src/main/java/com/sergioruy/departmentservice/service/DepartmentServiceImpl.java,c/b/cb94e4e83850b9cfb52062fa339b580f23892e65
 w
 G.idea/sonarlint/issuestore/7/d/7d8a197aea9fb98c9fbb4afb1af1b36727fea061,3/5/35036c97e8100a4b7b85513b004296d1f98dcaf8
 w
@@ -88,8 +82,6 @@ G.idea/sonarlint/issuestore/9/6/9681d8fd9c780f673165f6c2fd19c44ed92b89b9,6/9/69
 w
 G.idea/sonarlint/issuestore/8/d/8d671799729735934bc167ed440c2c53bddd47a0,7/c/7cf08a479efb26cdc0c690348e4074b8681a10fa
 w
-G.idea/sonarlint/issuestore/8/e/8ec66d221de6c1b6c8e16646203552756ac9b938,3/4/349f5ef948cdfff499b16d1350784c817aee3596
-w
 G.idea/sonarlint/issuestore/9/d/9d309c0e2031346738385b0e0d87478993730480,d/3/d334b17a5e4213be979c349f8f897739402ed06b
 w
 G.idea/sonarlint/issuestore/a/e/ae2d5e63240e70f138adc43acf049a23afeceffa,4/1/4132297a10a3e5d97761c0e37f7599acce473eae
@@ -100,21 +92,15 @@ G.idea/sonarlint/issuestore/b/1/b1d90d19bc082aa621c9e888944c2927c88ad366,2/6/26
 w
 G.idea/sonarlint/issuestore/0/5/051f2078e26eaf41e79235a6ef8a358c1354267c,7/6/76f971ce5d2ad4f8fafba7fe47275a443df0e49f
 w
-G.idea/sonarlint/issuestore/2/8/28add3d17df75cefbfe3cdbad9c90e1e860567f2,6/2/6254e9dfb14bea6a6c13eae2501e965543b039b5
-w
 G.idea/sonarlint/issuestore/3/9/39383d16505ab049131e8c5fcf5c9cc8468419a2,e/4/e49efb5b96a529995c5770e67742093352315af3
 w
 G.idea/sonarlint/issuestore/3/a/3ae566d5a640f7376dc8b093b0410f2c95866a03,d/f/df7f9cb7f2a406249275a5895c15b47767ad2782
-w
-G.idea/sonarlint/issuestore/3/8/3858fa3f204a1eb96c666fb5523453edd1485e94,8/0/80ba5e013e0015ebded13fef4bdb0cc906472a76
 w
 G.idea/sonarlint/issuestore/5/5/55596050b097fc548e4e2c8bac422b30b68736a0,c/8/c87a38df22ea6a65eac38244c02c74759feebdb5
 w
 G.idea/sonarlint/issuestore/5/6/567996eebb46ea7223300ea57c141f3b58946c82,3/b/3b3dd842ed119cfe1c3c2fcde3b6b2c768ba3199
 w
 G.idea/sonarlint/issuestore/5/4/5413736123c7d535ea76e5a46b8c881f9abbab09,d/5/d546a53eba4dbc82187e2669d0d496b91305bbc6
-w
-G.idea/sonarlint/issuestore/5/4/54bf1abfbdd09c81fde489e6a89eea5f9cd16ee9,1/7/178ea33b10559e146992f73b47b56c34f09feed2
 w
 G.idea/sonarlint/issuestore/a/c/acbb570d90f329f165e63f73e681dd703a0858a4,e/9/e9e3aa250f3f6c08ed7d9715a00a4368f34e4e7e
 w
@@ -123,8 +109,6 @@ w
 G.idea/sonarlint/issuestore/f/7/f79bc0f72fdb6785d8656498f7afe28be8c8eff4,3/7/375fdfc104850f6b0d56eec700866366db06be45
 w
 G.idea/sonarlint/issuestore/9/2/92258822d79bfe0ae7057afe8a7901fa97196a61,2/b/2b2f50e91746493bd48623041d03b4cb07ec7b3b
-w
-G.idea/sonarlint/issuestore/f/d/fd37f1730e02a8576e863caded771b006710b129,6/9/698a6a87e0056cf3bc79b05adf440c25cd883a71
 w
 G.idea/sonarlint/issuestore/0/b/0b053c52c6e9c6aa12cb15d09dafb26192b6c293,f/0/f058f8a6f9358e82f1aa61d0beba02b60971c995
 w
@@ -254,11 +238,7 @@ G.idea/sonarlint/issuestore/b/2/b2cea92056f4d7a3b9b49ffae05b56b0db67b8c8,3/0/30
 w
 G.idea/sonarlint/issuestore/b/c/bc038d1b029a5c862f951be4bde4b658f72346c1,d/3/d3f7b9d51e443c86d80dd49d7c10ca32bdb5f55f
 w
-G.idea/sonarlint/issuestore/e/8/e8f0bb6313867eeba6d001451198656ecf9517c7,2/6/26ba56547c5f3bb06f41abe0fbb9528241f607cf
-w
 G.idea/sonarlint/issuestore/e/f/efeba6ad3e3f8ada8535bd1dab7b473e12eaddc8,d/4/d45129fa5287feedf203172c64ed4782887b04a3
-w
-G.idea/sonarlint/issuestore/d/f/df61a35016626dedeef0c801463d73257367ebfa,e/b/eb4db8936c233e546d935aaa11d3f230e862be87
 w
 G.idea/sonarlint/issuestore/e/2/e25dc7dd6635c540caae865fab6794824e43d12c,3/5/35a31fc8dc15cf732516ee28fc3a3aeea2915b5d
 w
