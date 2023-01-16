@@ -10,6 +10,7 @@
         <module name="service-register" />
         <module name="api-gateway" />
         <module name="config-server" />
+        <module name="organization-services" />
       </profile>
       <profile name="Annotation profile for employee-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -30,6 +31,7 @@
       <module name="config-server" target="17" />
       <module name="department-service" target="17" />
       <module name="employee-service" target="17" />
+      <module name="organization-services" target="17" />
       <module name="service-register" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -39,6 +41,7 @@
       <module name="config-server" options="-parameters" />
       <module name="department-service" options="-parameters" />
       <module name="employee-service" options="-parameters" />
+      <module name="organization-services" options="-parameters" />
       <module name="service-register" options="-parameters" />
     </option>
   </component>
