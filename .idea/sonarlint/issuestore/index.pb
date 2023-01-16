@@ -495,8 +495,6 @@ R.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_api_3_1_5.
 cdepartment-service/src/main/java/com/sergioruy/departmentservice/service/DepartmentServiceImpl.java,c/b/cb94e4e83850b9cfb52062fa339b580f23892e65
 ‘
 adepartment-service/src/main/java/com/sergioruy/departmentservice/mapper/AutoDepartmentMapper.java,8/9/89b2dedab299a00609a03e5dd64d84ba8b35c411
-‹
-[employee-service/src/main/java/com/sergioruy/employeeservice/mapper/AutoEmployeeMapper.java,e/6/e6728234c8ed88766eefe1f7ec1cc6b94b33edbe
 w
 G.idea/sonarlint/issuestore/c/0/c0c31125a119a69f7ab3b42fe115db2e744df176,b/c/bc8312dacac338372436af96127bac875a9d3912
 w
