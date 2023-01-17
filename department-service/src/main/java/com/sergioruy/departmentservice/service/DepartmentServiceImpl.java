@@ -31,8 +31,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 
         Department savedDepartment = departmentRepository.save(department);
 
-        DepartmentDto savedDepartmentDto = AutoDepartmentMapper.MAPPER.mapToDepartmentDto(savedDepartment);
-        return savedDepartmentDto;
+        return AutoDepartmentMapper.MAPPER.mapToDepartmentDto(savedDepartment);
     }
 
     @Override
@@ -42,8 +41,6 @@ public class DepartmentServiceImpl implements DepartmentService {
                 () -> new ResourceNotFoundException("Department-Service with Code " + departmentCode + " was not found.")
         );
 
-        DepartmentDto departmentDto = AutoDepartmentMapper.MAPPER.mapToDepartmentDto(department);
-
-        return departmentDto;
+        return AutoDepartmentMapper.MAPPER.mapToDepartmentDto(department);
     }
 }

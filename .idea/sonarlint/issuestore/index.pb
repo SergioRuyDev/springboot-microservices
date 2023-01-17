@@ -39,12 +39,8 @@ Semployee-service/src/main/java/com/sergioruy/employeeservice/dto/DepartmentDto.
 Qemployee-service/src/main/java/com/sergioruy/employeeservice/entity/Employee.java,2/1/21f64b39bd7ab52189fd4fa9b397b5e3b671d49a
 Å
 Qemployee-service/src/main/java/com/sergioruy/employeeservice/dto/EmployeeDto.java,a/c/acbb570d90f329f165e63f73e681dd703a0858a4
-Ñ
-Temployee-service/src/main/java/com/sergioruy/employeeservice/dto/ApiResponseDto.java,8/d/8d671799729735934bc167ed440c2c53bddd47a0
 í
 bemployee-service/src/main/java/com/sergioruy/employeeservice/exception/GlobalExceptionHandler.java,f/4/f4f422e2468673b5ef38330d53ff7ffd80c5ed84
-è
-_employee-service/src/main/java/com/sergioruy/employeeservice/controller/EmployeeController.java,f/7/f79bc0f72fdb6785d8656498f7afe28be8c8eff4
 o
 ?.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_69.xml,9/d/9d309c0e2031346738385b0e0d87478993730480
 o
@@ -63,10 +59,6 @@ O.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_1_5.xml
 O.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_1_5.xml,b/c/bc038d1b029a5c862f951be4bde4b658f72346c1
 ï
 edepartment-service/src/main/java/com/sergioruy/departmentservice/controller/DepartmentController.java,0/b/0b053c52c6e9c6aa12cb15d09dafb26192b6c293
-à
-Xemployee-service/src/main/java/com/sergioruy/employeeservice/exception/ErrorDetails.java,c/6/c66c63280c35cb92ff88a2a89f36c5478f224e50
-â
-Yemployee-service/src/main/java/com/sergioruy/employeeservice/service/EmployeeService.java,9/2/92258822d79bfe0ae7057afe8a7901fa97196a61
 w
 G.idea/sonarlint/issuestore/7/d/7d8a197aea9fb98c9fbb4afb1af1b36727fea061,3/5/35036c97e8100a4b7b85513b004296d1f98dcaf8
 w
@@ -491,8 +483,6 @@ T.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_brave_3_1_
 R.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_api_3_1_5.xml,2/f/2f0790a105e9300ea772d4b98b0f783a97199945
 å
 \employee-service/src/main/java/com/sergioruy/employeeservice/EmployeeServiceApplication.java,1/0/109a1e6697615f3a933531ddd80866eede23b671
-ì
-cdepartment-service/src/main/java/com/sergioruy/departmentservice/service/DepartmentServiceImpl.java,c/b/cb94e4e83850b9cfb52062fa339b580f23892e65
 ë
 adepartment-service/src/main/java/com/sergioruy/departmentservice/mapper/AutoDepartmentMapper.java,8/9/89b2dedab299a00609a03e5dd64d84ba8b35c411
 w
@@ -707,5 +697,19 @@ w
 G.idea/sonarlint/issuestore/8/6/86dfa05d02019e19af70d45483b58b8dd574884c,9/9/99de63c84dca7b061296f8a5b789b976d02a9f42
 w
 G.idea/sonarlint/issuestore/8/b/8b72037c1e8b0f4ffe6f820603b401f180846ecc,5/2/5214aa77b51e391dd5aa2cdb3a1067a2d9cb86da
-ç
-]employee-service/src/main/java/com/sergioruy/employeeservice/service/EmployeeServiceImpl.java,6/6/66f81da016cccee75d4243f22d56107261bea1a8
+k
+;organization-services/.mvn/wrapper/maven-wrapper.properties,a/3/a3c84146ab1edb8d57ddff08566a88d7c4bd6014
+J
+organization-services/mvnw,1/9/19bd3f2902d9ac1b93adcc9dac284165749187de
+P
+ organization-services/.gitignore,f/a/fa8f41857f92f8060c93b9b8d87427388a7f40e0
+N
+organization-services/mvnw.cmd,0/3/039ccab8f0224ac0e4d077a4eceffc3280df113e
+†
+porganization-services/src/test/java/com/sergioruy/organizationservices/OrganizationServicesApplicationTests.java,7/0/7090d5053e8b4a1b07343a6588d13cbd1a226927
+õ
+korganization-services/src/main/java/com/sergioruy/organizationservices/OrganizationServicesApplication.java,8/c/8cadca95336d41172ed0df6485ff9d2307be9e04
+ã
+[employee-service/src/main/java/com/sergioruy/employeeservice/mapper/AutoEmployeeMapper.java,e/6/e6728234c8ed88766eefe1f7ec1cc6b94b33edbe
+ù
+morganization-services/src/main/java/com/sergioruy/organizationservices/repository/OrganizationRepository.java,8/a/8af68201987fbbb12248f7adabdace35901b77e0
