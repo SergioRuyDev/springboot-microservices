@@ -3,6 +3,7 @@ package com.sergioruy.employeeservice.service;
 import com.sergioruy.employeeservice.dto.ApiResponseDto;
 import com.sergioruy.employeeservice.dto.DepartmentDto;
 import com.sergioruy.employeeservice.dto.EmployeeDto;
+import com.sergioruy.employeeservice.dto.OrganizationDto;
 import com.sergioruy.employeeservice.entity.Employee;
 import com.sergioruy.employeeservice.exception.EmailExistException;
 import com.sergioruy.employeeservice.exception.ResourceNotFoundException;
@@ -73,11 +74,18 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 //        DepartmentDto departmentDto = apiClient.getDepartment(employee.getDepartmentCode());
 
+        OrganizationDto organizationDto = webClient.get()
+                .uri("http://localhost:8083/api/organizations/" + employee.getOrganizationCode(), OrganizationDto.class)
+                .retrieve()
+                .bodyToMono(OrganizationDto.class)
+                .block();
+
         EmployeeDto employeeDto = AutoEmployeeMapper.MAPPER.mapToEmployeeDto(employee);
 
         ApiResponseDto apiResponseDto = new ApiResponseDto();
         apiResponseDto.setEmployee(employeeDto);
         apiResponseDto.setDepartment(departmentDto);
+        apiResponseDto.setOrganization(organizationDto);
 
         return apiResponseDto;
     }

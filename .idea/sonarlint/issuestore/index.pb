@@ -33,10 +33,6 @@ eemployee-service/src/main/java/com/sergioruy/employeeservice/exception/Resource
 Wdepartment-service/src/main/java/com/sergioruy/departmentservice/entity/Department.java,7/8/789a249b0415850f27cd131b7e6d68ce4867ffa7
 É
 Semployee-service/src/main/java/com/sergioruy/employeeservice/dto/DepartmentDto.java,a/e/ae2d5e63240e70f138adc43acf049a23afeceffa
-Å
-Qemployee-service/src/main/java/com/sergioruy/employeeservice/entity/Employee.java,2/1/21f64b39bd7ab52189fd4fa9b397b5e3b671d49a
-Å
-Qemployee-service/src/main/java/com/sergioruy/employeeservice/dto/EmployeeDto.java,a/c/acbb570d90f329f165e63f73e681dd703a0858a4
 í
 bemployee-service/src/main/java/com/sergioruy/employeeservice/exception/GlobalExceptionHandler.java,f/4/f4f422e2468673b5ef38330d53ff7ffd80c5ed84
 o
@@ -479,8 +475,6 @@ T.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_brave_3_1_
 \.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_autoconfigure_3_1_5.xml,c/0/c0c31125a119a69f7ab3b42fe115db2e744df176
 Ç
 R.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_api_3_1_5.xml,2/f/2f0790a105e9300ea772d4b98b0f783a97199945
-å
-\employee-service/src/main/java/com/sergioruy/employeeservice/EmployeeServiceApplication.java,1/0/109a1e6697615f3a933531ddd80866eede23b671
 ë
 adepartment-service/src/main/java/com/sergioruy/departmentservice/mapper/AutoDepartmentMapper.java,8/9/89b2dedab299a00609a03e5dd64d84ba8b35c411
 w
