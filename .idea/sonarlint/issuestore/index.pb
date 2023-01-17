@@ -417,8 +417,6 @@ X.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5
 Y.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_5_16.xml,7/7/774bbf8e02493518a1214e9f08803a397c74e381
 Ž
 ^employee-service/src/main/java/com/sergioruy/employeeservice/controller/MessageController.java,4/7/4769dac3681e8b521dccf0158c71218849e84100
-C
-api-gateway/pom.xml,2/b/2bfa2b108f2439e99e004f4085b58c22cf995f73
 u
 E.idea/libraries/Maven__io_zipkin_aws_brave_propagation_aws_0_21_3.xml,2/8/2858186c7c8395fc26f6bc80c0d17a1f80ad0120
 f
