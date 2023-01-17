@@ -419,8 +419,6 @@ Y.idea/libraries/Maven__org_springframework_integration_spring_integration_core_
 ^employee-service/src/main/java/com/sergioruy/employeeservice/controller/MessageController.java,4/7/4769dac3681e8b521dccf0158c71218849e84100
 C
 api-gateway/pom.xml,2/b/2bfa2b108f2439e99e004f4085b58c22cf995f73
-J
-department-service/pom.xml,4/3/435a299772071101395e50f9c97404ba87b4f0c3
 u
 E.idea/libraries/Maven__io_zipkin_aws_brave_propagation_aws_0_21_3.xml,2/8/2858186c7c8395fc26f6bc80c0d17a1f80ad0120
 f
@@ -699,7 +697,5 @@ N
 organization-services/mvnw.cmd,0/3/039ccab8f0224ac0e4d077a4eceffc3280df113e
  
 porganization-services/src/test/java/com/sergioruy/organizationservices/OrganizationServicesApplicationTests.java,7/0/7090d5053e8b4a1b07343a6588d13cbd1a226927
-›
-korganization-services/src/main/java/com/sergioruy/organizationservices/OrganizationServicesApplication.java,8/c/8cadca95336d41172ed0df6485ff9d2307be9e04
 ‹
 [employee-service/src/main/java/com/sergioruy/employeeservice/mapper/AutoEmployeeMapper.java,e/6/e6728234c8ed88766eefe1f7ec1cc6b94b33edbe
