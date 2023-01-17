@@ -5,4 +5,6 @@ import com.sergioruy.organizationservices.dto.OrganizationDto;
 public interface OrganizationService {
 
     OrganizationDto saveOrganization(OrganizationDto organizationDto);
+
+    OrganizationDto getOrgnizationByCode(String organizationCode);
 }

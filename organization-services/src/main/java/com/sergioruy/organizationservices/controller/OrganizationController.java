@@ -5,10 +5,7 @@ import com.sergioruy.organizationservices.service.OrganizationServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @AllArgsConstructor
 @RestController
@@ -16,6 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrganizationController {
 
     private OrganizationServiceImpl organizationService;
+
+    @GetMapping("{code}")
+    public ResponseEntity<OrganizationDto> getOrganization(@PathVariable("code") String organizationCode) {
+        OrganizationDto organizationDto = organizationService.getOrgnizationByCode(organizationCode);
+        return ResponseEntity.ok(organizationDto);
+    }
 
     @PostMapping
     public ResponseEntity<OrganizationDto> saveOrganization(@RequestBody OrganizationDto organizationDto) {

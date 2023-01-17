@@ -21,8 +21,6 @@ ldepartment-service/src/main/java/com/sergioruy/departmentservice/exception/Depa
 edepartment-service/src/main/java/com/sergioruy/departmentservice/repository/DepartmentRepository.java,5/0/5047a636f06ccffcb6b88040810fe6e39b210303
 è
 _employee-service/src/main/java/com/sergioruy/employeeservice/exception/EmailExistException.java,d/e/de33fb6f07d464b6633edfdb9d75613e07114933
-è
-_employee-service/src/main/java/com/sergioruy/employeeservice/repository/EmployeeRepository.java,a/b/ab42df6fdb3c185ca9b2a991b95facb86a5b3ac9
 å
 \department-service/src/main/java/com/sergioruy/departmentservice/exception/ErrorDetails.java,3/9/39383d16505ab049131e8c5fcf5c9cc8468419a2
 ñ
@@ -711,5 +709,3 @@ porganization-services/src/test/java/com/sergioruy/organizationservices/Organiza
 korganization-services/src/main/java/com/sergioruy/organizationservices/OrganizationServicesApplication.java,8/c/8cadca95336d41172ed0df6485ff9d2307be9e04
 ã
 [employee-service/src/main/java/com/sergioruy/employeeservice/mapper/AutoEmployeeMapper.java,e/6/e6728234c8ed88766eefe1f7ec1cc6b94b33edbe
-ù
-morganization-services/src/main/java/com/sergioruy/organizationservices/repository/OrganizationRepository.java,8/a/8af68201987fbbb12248f7adabdace35901b77e0
