@@ -59,11 +59,9 @@ Example of Microservices about a Employees Manageament and organizations.
 
   10. Postman
 
-  11. Kafka
+  11. RabbitMQ
 
-  12. RabbitMQ
-
-  13. Docker
+  12. Docker
 
 ## Steps and Requirements to build and run the Project
 
