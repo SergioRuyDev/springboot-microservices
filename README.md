@@ -34,7 +34,7 @@ Example of Microservices about a Employees Manageament and organizations.
 
 :bell: Resilience4J: Circuit Breaker, Retry, and RateLimiter Patterns.
 
-:bell: Test the application with React Frontend and Integrate with Backend Microservices.
+:bell: Test the application with a simple React Frontend and Integrate with Backend Microservices.
 
 :bell: Event-Driven Microservices using Spring boot and Kafka.
 
