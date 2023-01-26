@@ -36,7 +36,6 @@ Example of Microservices about a Employees Manageament and organizations.
 
 :bell: Test the application with a simple React Frontend and Integrate with Backend Microservices.
 
-:bell: Event-Driven Microservices using Spring boot and Kafka.
 
 ## Tools and technologies used:
   1. Java 17+
@@ -61,7 +60,7 @@ Example of Microservices about a Employees Manageament and organizations.
 
   11. RabbitMQ
 
-  12. Docker
+  12. Docker (in progress)
 
 ## Steps and Requirements to build and run the Project
 
