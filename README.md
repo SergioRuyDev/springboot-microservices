@@ -1,6 +1,6 @@
 # springboot-microservices
 
-# Microservices with Api Gateway Pattern.
+# Microservices with Springboot and Spring Cloud.
 
 <p align"center">
   <img src="https://snipboard.io/EOIfUH.jpg"/>
