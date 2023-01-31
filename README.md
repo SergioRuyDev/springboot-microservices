@@ -3,7 +3,7 @@
 # Microservices with Springboot and Spring Cloud.
 
 <p align="center">
-  <img src="https://snipboard.io/1vH2Vf.jpg"/>
+  <img src="chart.png"/>
 </p>
 
 > Status of Project: Under development :wrench::hammer:
