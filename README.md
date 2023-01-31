@@ -3,7 +3,7 @@
 # Microservices with Api Gateway Pattern.
 
 <p align"center">
-  <img src="https://snipboard.io/EOIfUH.jpg"/>
+  <img src="https://snipboard.io/1vH2Vf.jpg"/>
 </p>
 
 > Status of Project: Under development :wrench::hammer:

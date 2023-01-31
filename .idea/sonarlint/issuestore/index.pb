@@ -297,8 +297,6 @@ Semployee-service/src/main/java/com/sergioruy/employeeservice/service/ApiClient.
 Rapi-gateway/src/test/java/com/sergioruy/apigateway/ApiGatewayApplicationTests.java,0/8/08d19adbe697d73bd4d74f4f0da87126afeb474d
 }
 Mapi-gateway/src/main/java/com/sergioruy/apigateway/ApiGatewayApplication.java,1/e/1e3e0567cdc4fd79377432a28969a876b2d10982
-å
-\service-register/src/main/java/com/sergioruy/serviceregister/ServiceRegisterApplication.java,b/9/b99c636e2433d446203d8c6539a1c8f7ac453817
 F
 config-server/mvnw.cmd,0/9/09d6c851d3b5e0951a6f90053fc57fac349c8d8e
 H
@@ -333,8 +331,6 @@ j
 :.idea/libraries/Maven__org_apache_sshd_sshd_core_2_7_0.xml,1/9/1991b5df36f3f16046413efeb011fffd699eb59b
 j
 :.idea/libraries/Maven__org_apache_sshd_sshd_osgi_2_7_0.xml,d/2/d2179228f0e8ff589334b86706bde71ca441e4e8
-É
-Sconfig-server/src/main/java/com/sergioruy/configserver/ConfigServerApplication.java,2/d/2db33d898805aa6dd70804dd54027b7bed5e72a4
 à
 Xconfig-server/src/test/java/com/sergioruy/configserver/ConfigServerApplicationTests.java,f/7/f7621ae41772904e118685e59a9fa33b9139899a
 E
@@ -701,8 +697,6 @@ porganization-services/src/test/java/com/sergioruy/organizationservices/Organiza
 iorganization-services/src/main/java/com/sergioruy/organizationservices/mapper/AutoOrganizationMapper.java,7/a/7a72b184bd78474041dbc1fa72f01acb5eb7677a
 à
 Xemployee-service/src/main/java/com/sergioruy/employeeservice/exception/ErrorDetails.java,c/6/c66c63280c35cb92ff88a2a89f36c5478f224e50
-ì
-cdepartment-service/src/main/java/com/sergioruy/departmentservice/service/DepartmentServiceImpl.java,c/b/cb94e4e83850b9cfb52062fa339b580f23892e65
 è
 _organization-services/src/main/java/com/sergioruy/organizationservices/entity/Organization.java,1/3/13c22ad82418b73e68ba4a0dc717a277fbe0eb5a
 â
@@ -713,8 +707,6 @@ _employee-service/src/main/java/com/sergioruy/employeeservice/repository/Employe
 morganization-services/src/main/java/com/sergioruy/organizationservices/repository/OrganizationRepository.java,8/a/8af68201987fbbb12248f7adabdace35901b77e0
 ó
 gorganization-services/src/main/java/com/sergioruy/organizationservices/service/OrganizationService.java,8/6/86bbbb5990c931ca2e295bab507d906586c91b70
-õ
-korganization-services/src/main/java/com/sergioruy/organizationservices/service/OrganizationServiceImpl.java,0/a/0a96a420dc17a22976bf9a128f771beed1437678
 ù
 morganization-services/src/main/java/com/sergioruy/organizationservices/controller/OrganizationController.java,1/5/1564a38dd8828042aa505000b0b5cbcc5e83b4f2
 è
@@ -777,3 +769,11 @@ J
 react-frontend/src/App.css,7/4/745b7faa6e1c8a1ca6b6380c3a0a726f059842c8
 a
 1react-frontend/src/component/EmployeeComponent.js,5/7/57fd712cf45d4b4aed388bf8262796cac49d8d41
+õ
+korganization-services/src/main/java/com/sergioruy/organizationservices/service/OrganizationServiceImpl.java,0/a/0a96a420dc17a22976bf9a128f771beed1437678
+É
+Sconfig-server/src/main/java/com/sergioruy/configserver/ConfigServerApplication.java,2/d/2db33d898805aa6dd70804dd54027b7bed5e72a4
+å
+\service-register/src/main/java/com/sergioruy/serviceregister/ServiceRegisterApplication.java,b/9/b99c636e2433d446203d8c6539a1c8f7ac453817
+ì
+cdepartment-service/src/main/java/com/sergioruy/departmentservice/service/DepartmentServiceImpl.java,c/b/cb94e4e83850b9cfb52062fa339b580f23892e65
