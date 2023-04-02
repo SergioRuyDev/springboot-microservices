@@ -11,7 +11,7 @@
         <module name="api-gateway" />
         <module name="config-server" />
       </profile>
-      <profile name="Annotation profile for organization-services" enabled="true">
+      <profile name="Annotation profile for employee-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -22,8 +22,8 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
         </processorPath>
         <module name="department-service" />
-        <module name="organization-services" />
         <module name="employee-service" />
+        <module name="organization-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

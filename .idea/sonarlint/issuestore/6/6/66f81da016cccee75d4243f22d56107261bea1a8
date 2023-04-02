@@ -1,0 +1,8 @@
+
+V	java:S125 "<This block of commented-out lines of code should be removed.(ÿ€ú“ÿÿÿÿÿ
+V	java:S125@"<This block of commented-out lines of code should be removed.(ĞÄÅùÿÿÿÿ
+Q	java:S125K"<This block of commented-out lines of code should be removed.(²‚Î
+F
+java:S1172]"0Remove this unused method parameter "exception".(Û×«Œ
+y
+java:S1128"\Remove this unused import 'io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker'.(›èÌÇ8Ç§À†Ü0
