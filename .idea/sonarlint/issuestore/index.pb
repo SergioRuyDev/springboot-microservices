@@ -23,8 +23,6 @@ fdepartment-service/src/main/java/com/sergioruy/departmentservice/exception/Glob
 idepartment-service/src/main/java/com/sergioruy/departmentservice/exception/ResourceNotFoundException.java,5/4/5413736123c7d535ea76e5a46b8c881f9abbab09
 ï
 eemployee-service/src/main/java/com/sergioruy/employeeservice/exception/ResourceNotFoundException.java,0/5/051f2078e26eaf41e79235a6ef8a358c1354267c
-É
-Semployee-service/src/main/java/com/sergioruy/employeeservice/dto/DepartmentDto.java,a/e/ae2d5e63240e70f138adc43acf049a23afeceffa
 í
 bemployee-service/src/main/java/com/sergioruy/employeeservice/exception/GlobalExceptionHandler.java,f/4/f4f422e2468673b5ef38330d53ff7ffd80c5ed84
 o
@@ -187,8 +185,6 @@ D.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml,d/f/df61a
 K.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml,e/8/e8f0bb6313867eeba6d001451198656ecf9517c7
 t
 D.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml,2/8/28add3d17df75cefbfe3cdbad9c90e1e860567f2
-é
-^employee-service/src/main/java/com/sergioruy/employeeservice/controller/MessageController.java,4/7/4769dac3681e8b521dccf0158c71218849e84100
 ë
 adepartment-service/src/main/java/com/sergioruy/departmentservice/mapper/AutoDepartmentMapper.java,8/9/89b2dedab299a00609a03e5dd64d84ba8b35c411
 w
@@ -389,12 +385,6 @@ Xemployee-service/src/main/java/com/sergioruy/employeeservice/exception/ErrorDet
 morganization-services/src/main/java/com/sergioruy/organizationservices/repository/OrganizationRepository.java,8/a/8af68201987fbbb12248f7adabdace35901b77e0
 ó
 gorganization-services/src/main/java/com/sergioruy/organizationservices/service/OrganizationService.java,8/6/86bbbb5990c931ca2e295bab507d906586c91b70
-è
-_employee-service/src/main/java/com/sergioruy/employeeservice/controller/EmployeeController.java,f/7/f79bc0f72fdb6785d8656498f7afe28be8c8eff4
-Ñ
-Temployee-service/src/main/java/com/sergioruy/employeeservice/dto/ApiResponseDto.java,8/d/8d671799729735934bc167ed440c2c53bddd47a0
-Ö
-Uemployee-service/src/main/java/com/sergioruy/employeeservice/dto/OrganizationDto.java,b/6/b6a942e61532db6d35d4e75777ef21aecdf4ed86
 ç
 ]employee-service/src/main/java/com/sergioruy/employeeservice/service/EmployeeServiceImpl.java,6/6/66f81da016cccee75d4243f22d56107261bea1a8
 P
@@ -439,10 +429,6 @@ korganization-services/src/main/java/com/sergioruy/organizationservices/service/
 cdepartment-service/src/main/java/com/sergioruy/departmentservice/service/DepartmentServiceImpl.java,c/b/cb94e4e83850b9cfb52062fa339b580f23892e65
 j
 :Collection/Springboot-microservice.postman_collection.json,c/4/c4d73f65d1bcca019064f2b90ef1f79ea0619cf0
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-Å
-Qemployee-service/src/main/java/com/sergioruy/employeeservice/dto/EmployeeDto.java,a/c/acbb570d90f329f165e63f73e681dd703a0858a4
 ã
 [employee-service/src/main/java/com/sergioruy/employeeservice/mapper/AutoEmployeeMapper.java,e/6/e6728234c8ed88766eefe1f7ec1cc6b94b33edbe
 è
@@ -1159,7 +1145,5 @@ C
 api-gateway/pom.xml,2/b/2bfa2b108f2439e99e004f4085b58c22cf995f73
 E
 config-server/pom.xml,a/2/a2f9618c8ad821b143a07a29a9805fcb0b2df470
-H
-employee-service/pom.xml,f/d/fd812e5ef9218413b1f2b5c11155b42a1059175f
 H
 service-register/pom.xml,1/3/135122b01df2ba2f70b2430de347664b469b2e24

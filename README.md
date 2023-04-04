@@ -10,7 +10,7 @@
 
 ## Description of Project
 
-Example of Microservices about a Employees Manageament and organizations. 
+Example of Microservices about a Employees Management and organizations. 
 
 ## Functionalities
 
@@ -33,6 +33,8 @@ Example of Microservices about a Employees Manageament and organizations.
 :bell: Distributed Tracing with Spring Cloud Sleuth and Zipkin.
 
 :bell: Resilience4J: Circuit Breaker, Retry, and RateLimiter Patterns.
+
+:bell: Documentation with Swagger OpenApi.
 
 :bell: Test the application with a simple React Frontend and Integrate with Backend Microservices.
 
@@ -60,7 +62,9 @@ Example of Microservices about a Employees Manageament and organizations.
 
   11. RabbitMQ
 
-  12. Docker (in progress)
+  12. Docker
+   
+  13. Documentation with Swagger OpenApi
 
 ## Local Ports Mapping of the Project:
 ```bash
